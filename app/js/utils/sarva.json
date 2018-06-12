@@ -1,0 +1,675 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Home",
+      "id": 1,
+      "attr": {
+        "position": [
+          -167.99652099609375,
+          -295.9722137451172,
+          1
+        ],
+        "style": {
+          "background": "#993300"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Introduction",
+          "id": "2.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              106.99658203125,
+              -93.99653625488281,
+              6
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 2,
+              "text": "{\n\"short\":\"Introduction\",\n\"description\": \"SARVA is a global change decision and policy support portal which hosts a variety of spatial and non-spatial resources and decision support tools. The majority of the data is hosted under Creative Commons licenses, and contributions form grant-funded researchers and government departments in South Africa are welcomed. SAEON has a support team in place to assist you with data deposit and publication, and with access to data sets and decision support tools. \",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "SASDI Integration",
+              "id": "54.6fb823f9d8af5a9b",
+              "attr": {
+                "style": {
+                  "background": "#993300"
+                },
+                "note": {
+                  "index": 3,
+                  "text": "{\n\"description\": \"some text\",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "title": "M&A ",
+          "id": "8.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              113.00347900390625,
+              -31.00347900390625,
+              5
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 6,
+              "text": "{\n\"short\": \"M&A\",\n\"description\": \"The mitigation and adaptation strategies profiler is a database of past, current, and planned mitigation and adaptation strategies for South Africa. The tool allows for spatial referencing and each strategy has been give a feasibility status. \",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "21": {
+          "title": "Other Atlases",
+          "id": "4.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              133.00347900390625,
+              61.00347900390625,
+              8
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 7,
+              "text": "{\n\"description\": \"SARVA works with a variety of other platforms to collect and curate geospatial data for South Africa. Here we provide a cross-platform search link to enable users greater access to potential data of interest.\",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "31": {
+          "title": "Hardcopy Atlas 2.0",
+          "id": "6.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              108.00347900390625,
+              151.99307250976562,
+              10
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 9,
+              "text": "{\n\"description\": \"The Department of Science and Technology (DST) and the Council for Scientific and Industrial Research (CSIR) have released the second edition of the South African Risk and Vulnerability Atlas: Hardcopy. The first edition was released in 2012, building off of this foundation, the second edition contains updated climate forecasts and cases studies for specific themes.\",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "3.5": {
+          "title": "Hazards ",
+          "id": "3.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              126.99658203125,
+              -52,
+              7
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 4,
+              "text": "{\n\"description\": \"The hazard profiling tool allows users to interact with a variety of stocks and pressures to gain an understanding of hazardous intersects. Hazards can be assessed at the local municipal level to aid in decision support for communities. With high resolution data, users can identify the areas within the local municipalities with the greatest hazard exposure. These visualisations are retroactive looks into phenomena that are occuring now or in the recent past and are design to support short-term planning to bolster efforts in the medium-term and long-term. This tool is tied to the Disaster and Mitigation and Adaptation profilers for ease of comparison. \",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "4.75": {
+          "title": "Events and Disasters ",
+          "id": "7.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              116.12155151367188,
+              -43.11806869506836,
+              11
+            ],
+            "style": {
+              "background": "#993300"
+            },
+            "note": {
+              "index": 5,
+              "text": "{\n\"description\": \"The disaster profiler combines data from a variety of sources to give users timelines and maps of past disasters. Timelines will combine declared disaster information from the National Disaster Management Centre as well as information national and local media and social media with high resolution satellite data to profile a variety of different disasters including fires, floods, landslides, etc. Data can also be uploaded by users to crowd source additional information.\",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "13.5": {
+          "title": "SARVA Atlas",
+          "id": "55.62c37e239dbed1cc",
+          "attr": {
+            "style": {
+              "background": "#993300"
+            },
+            "position": [
+              139.49652099609375,
+              74.97221374511719,
+              12
+            ],
+            "note": {
+              "index": 7,
+              "text": "{\n\"description\": \"The atlases showcase high resolution geospatial data and models pertaining to various stocks and drivers involved in climate change as maps. Metadata records are available for each dataset as part of the interface. \",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        },
+        "9.75": {
+          "title": "Indicator Tool",
+          "id": "56.62c37e239dbed1cc",
+          "attr": {
+            "style": {
+              "background": "#993300"
+            },
+            "position": [
+              118.49652099609375,
+              48.97221374511719,
+              13
+            ],
+            "note": {
+              "index": 7,
+              "text": "{\n\"short\": \"Indicators\",\n\"description\": \"Indicators use models to project medium-term and long-term changes. In this tool, users will be able to interact with various model projections which will compare current conditions and outcomes for specific stocks with medium-term and long-term changes.\",\n\"more\": \"some url\",\n\"thumbnail\": \"some url\",\n\"contact\": \"some text\"\n}"
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Documentation Side Panel",
+      "id": "9.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          -831.9965209960938,
+          -66.96525573730469,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Using SARVA",
+          "id": "10.7ed5229c0009b5ed",
+          "ideas": {
+            "1": {
+              "title": "Profiling Tool",
+              "id": "12.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#000080"
+                }
+              }
+            },
+            "2": {
+              "title": "Atlas Resources",
+              "id": "13.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#000080"
+                }
+              }
+            },
+            "3": {
+              "title": "Metadata",
+              "id": "14.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#000080"
+                }
+              }
+            },
+            "4": {
+              "title": "Downloads",
+              "id": "15.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#000080"
+                }
+              }
+            },
+            "5": {
+              "title": "Contributing Local Information",
+              "id": "20.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#000080"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#000080"
+            }
+          }
+        },
+        "11": {
+          "title": "SARVA 2.0 Hardcopy",
+          "id": "11.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              268.0069580078125,
+              201.35416412353516,
+              3
+            ],
+            "style": {
+              "background": "#666699"
+            }
+          }
+        },
+        "16": {
+          "title": "Guidance",
+          "id": "24.7ed5229c0009b5ed",
+          "ideas": {
+            "1": {
+              "title": "Data Providers",
+              "id": "25.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#333399"
+                }
+              }
+            },
+            "2": {
+              "title": "Systems Developers",
+              "id": "26.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#333399"
+                }
+              }
+            },
+            "3": {
+              "title": "Service Providers",
+              "id": "27.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#333399"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#333399"
+            }
+          }
+        },
+        "21": {
+          "title": "Archive",
+          "id": "21.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              179.0069580078125,
+              277.69097900390625,
+              4
+            ],
+            "style": {
+              "background": "#33CCCC"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Reading Risk",
+              "id": "22.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#33CCCC"
+                }
+              }
+            },
+            "2": {
+              "title": "Atlas 1.0 Hardcopy ",
+              "id": "23.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#33CCCC"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Agriculture",
+                  "id": "51.6fb823f9d8af5a9b"
+                },
+                "2": {
+                  "title": "Biodiversity",
+                  "id": "52.6fb823f9d8af5a9b"
+                },
+                "3": {
+                  "title": "Air Quality",
+                  "id": "53.6fb823f9d8af5a9b"
+                }
+              }
+            }
+          }
+        },
+        "0.25": {
+          "title": "Global Change Decision Support",
+          "id": "17.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              150.00347900390625,
+              -187.9722137451172,
+              2
+            ],
+            "style": {
+              "background": "#3366FF"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Semantic Framework",
+              "id": "16.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#3366FF"
+                }
+              }
+            },
+            "2": {
+              "title": "Links to Evidence",
+              "id": "18.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#3366FF"
+                }
+              }
+            },
+            "3": {
+              "title": "Links to Government Data",
+              "id": "19.7ed5229c0009b5ed",
+              "attr": {
+                "style": {
+                  "background": "#3366FF"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "Atlases",
+      "id": "28.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          263.8888854980469,
+          -214.29858779907227,
+          1
+        ],
+        "style": {
+          "width": 175.983,
+          "background": "#99CC00"
+        }
+      },
+      "ideas": {
+        "10": {
+          "title": "Agrohydrology",
+          "id": "29.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              160.12161254882812,
+              62.909732818603516,
+              5
+            ],
+            "style": {
+              "background": "#99CC00"
+            }
+          }
+        },
+        "20": {
+          "title": "Carbon Sinks",
+          "id": "30.7ed5229c0009b5ed",
+          "attr": {
+            "style": {
+              "background": "#99CC00"
+            }
+          }
+        },
+        "30": {
+          "title": "SAWS Climate Change",
+          "id": "31.7ed5229c0009b5ed",
+          "attr": {
+            "style": {
+              "background": "#99CC00"
+            }
+          }
+        },
+        "40": {
+          "title": "Thematic Atlas",
+          "id": "32.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              115.12161254882812,
+              234.92363357543945,
+              7
+            ],
+            "style": {
+              "background": "#99CC00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Agriculture",
+              "id": "33.7ed5229c0009b5ed",
+              "attr": {
+                "position": [
+                  45.74647945898437,
+                  77.98611450195312,
+                  1
+                ],
+                "style": {
+                  "background": "#99CC00"
+                }
+              }
+            },
+            "2": {
+              "title": "Energy",
+              "id": "48.6fb823f9d8af5a9b",
+              "attr": {
+                "style": {
+                  "background": "#99CC00"
+                }
+              }
+            },
+            "3": {
+              "title": "...",
+              "id": "49.6fb823f9d8af5a9b",
+              "attr": {
+                "style": {
+                  "background": "#99CC00"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "title": "Profiler http://app01.saeon.ac.za/profiler/main.aspx",
+      "id": "35.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          491.6667938232422,
+          -460.1006851196289,
+          1
+        ],
+        "style": {
+          "background": "#808080"
+        }
+      }
+    },
+    "5": {
+      "title": "Events",
+      "id": "36.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          399.6702117919922,
+          -389.0763626098633,
+          1
+        ],
+        "style": {
+          "background": "#FF9900"
+        }
+      }
+    },
+    "6": {
+      "title": "M&A",
+      "id": "37.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          446.6666717529297,
+          -312.07984161376953,
+          1
+        ],
+        "style": {
+          "background": "#993366"
+        }
+      }
+    },
+    "7": {
+      "title": "Standard Footer",
+      "id": "38.7ed5229c0009b5ed",
+      "attr": {
+        "position": [
+          -158.10763549804688,
+          75.35416412353516,
+          1
+        ],
+        "style": {
+          "background": "#C0C0C0"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "SARVA",
+          "id": "39.7ed5229c0009b5ed",
+          "ideas": {
+            "1": {
+              "title": "Collaborators",
+              "id": "46.7ed5229c0009b5ed"
+            },
+            "2": {
+              "title": "Funding",
+              "id": "47.7ed5229c0009b5ed"
+            }
+          }
+        },
+        "11": {
+          "title": "General",
+          "id": "40.7ed5229c0009b5ed",
+          "attr": {
+            "position": [
+              125.89584350585938,
+              52.357643127441406,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Tickets and Issues",
+              "id": "41.7ed5229c0009b5ed"
+            },
+            "2": {
+              "title": "Contact",
+              "id": "42.7ed5229c0009b5ed"
+            },
+            "3": {
+              "title": "Conditions of Use",
+              "id": "43.7ed5229c0009b5ed"
+            },
+            "4": {
+              "title": "Licenses",
+              "id": "44.7ed5229c0009b5ed"
+            },
+            "5": {
+              "title": "Disclaimer",
+              "id": "45.7ed5229c0009b5ed"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Home",
+  "links": [
+    {
+      "ideaIdFrom": "6.7ed5229c0009b5ed",
+      "ideaIdTo": "11.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "4.7ed5229c0009b5ed",
+      "ideaIdTo": "28.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "3.7ed5229c0009b5ed",
+      "ideaIdTo": "35.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "7.7ed5229c0009b5ed",
+      "ideaIdTo": "36.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "8.7ed5229c0009b5ed",
+      "ideaIdTo": "37.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "35.7ed5229c0009b5ed",
+      "ideaIdTo": "36.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "35.7ed5229c0009b5ed",
+      "ideaIdTo": "37.7ed5229c0009b5ed",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ]
+}

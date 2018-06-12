@@ -1,0 +1,3 @@
+export const LOAD_SIDE_NAV = 'LOAD_SIDE_NAV';
+export const LOADING_SIDE_NAV = 'LOADING_SIDE_NAV';
+export const SIDE_NAV_LOADED = 'SIDE_NAV_LOADED';

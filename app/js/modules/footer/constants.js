@@ -1,0 +1,3 @@
+export const LOAD_FOOTER = 'LOAD_FOOTER';
+export const LOADING_FOOTER = 'LOADING_FOOTER';
+export const FOOTER_LOADED = 'FOOTER_LOADED';

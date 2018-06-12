@@ -1,0 +1,14 @@
+.sidenav{
+    width: 350px;
+    background-image: url("../image/sarva_banner.jpg");
+    background-color: white;
+}
+
+.nav_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu{
+    color: grey;
+}
