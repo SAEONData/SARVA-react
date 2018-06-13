@@ -8,7 +8,7 @@ import {LOAD_FOOTER} from './constants';
 export const loadFooterEpic = action$ =>
     action$.ofType(LOAD_FOOTER)
         .mergeMap(action$ =>
-            ajax.getJSON('/app/js/utils/sarva.json')
+            ajax.getJSON('/app/js/utils/Footer.json')
                 .map(data => loadFooterResult(data))
         );
 

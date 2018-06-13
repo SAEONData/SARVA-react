@@ -1,13 +1,13 @@
 import {combineReducers} from 'redux';
 import footer from './reducers/footer';
 
-const pageFooter = combineReducers({
+const Footer = combineReducers({
     footer
 });
 
 export const getFooter = state => getSlice(state).footer;
 
-export default pageFooter;
+export default Footer;
 
 function getSlice(state) {
     return state.page.pageFooter

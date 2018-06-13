@@ -58,7 +58,7 @@ class NavBar extends Component {
                             <DropdownMenu>
                                 {
                                     _.map(item.ideas, (ditem, dindex) => {
-                                        return(<DropdownItem key={`${index}-${dindex}`} href="#">{ditem.title}</DropdownItem>)
+                                        return(<DropdownItem className="nav-link black-text" key={`${index}-${dindex}`} href="#">{ditem.title}</DropdownItem>)
                                     })
                                 }
                             </DropdownMenu>

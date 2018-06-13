@@ -6,6 +6,6 @@ export function loadFooter(){
 }
 
 export function loadFooterResult(footerData) {
-    let footerContent = _.values(footerData.ideas['7'].ideas);
-    return { type: FOOTER_LOADED, footer: footerContent }
+    let footerContent = _.values(footerData.ideas['2'].ideas);
+    return { type: FOOTER_LOADED, Footer: footerContent }
 }

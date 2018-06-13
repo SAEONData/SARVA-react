@@ -1,0 +1,117 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Footer",
+      "id": 1,
+      "attr": {
+        "position": [
+          -26,
+          -15,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "andiyazi",
+          "id": "2.650e024954ed91bf",
+          "attr": {
+            "position": [
+              40,
+              -135,
+              1
+            ],
+            "note": {
+              "index": 2,
+              "text": "The DST funds the SAEON Open Data Platform (ODP) and associated dissemination portals. Developed by SAEON on behalf of DST, DEA, and other stakeholders."
+            }
+          }
+        },
+        "2": {
+          "title": "SAEON ODP",
+          "id": "5.650e024954ed91bf",
+          "attr": {},
+          "ideas": {
+            "1": {
+              "title": "Open Data Platform",
+              "id": "14.650e024954ed91bf"
+            },
+            "2": {
+              "title": "For Stakeholders",
+              "id": "15.650e024954ed91bf"
+            },
+            "3": {
+              "title": "For Developers",
+              "id": "16.650e024954ed91bf"
+            },
+            "4": {
+              "title": "Contact us",
+              "id": "17.650e024954ed91bf"
+            }
+          }
+        },
+        "12": {
+          "title": "Funding",
+          "id": "6.650e024954ed91bf",
+          "attr": {
+            "position": [
+              122,
+              86,
+              2
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Logo",
+              "id": "8.650e024954ed91bf",
+              "attr": {
+                "attachment": {
+                  "contentType": "application/vnd.google.drive.attachment",
+                  "content": {
+                    "name": "logo_dst.png",
+                    "mimeType": "image/png",
+                    "url": "https://drive.google.com/a/saeon.ac.za/file/d/1Ty4VUJMoT_Ibp2kqxRqBqPf2LB3vUD1r/view?usp=drive_web",
+                    "description": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "1.5": {
+          "title": "Legal",
+          "id": "4.650e024954ed91bf",
+          "attr": {
+            "style": {
+              "width": 106.375
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Disclaimer",
+              "id": "9.650e024954ed91bf"
+            },
+            "2": {
+              "title": "Using Sarva",
+              "id": "10.650e024954ed91bf"
+            },
+            "3": {
+              "title": "Terms and Conditions",
+              "id": "11.650e024954ed91bf"
+            },
+            "4": {
+              "title": "Data Licenses",
+              "id": "12.650e024954ed91bf"
+            },
+            "5": {
+              "title": "Privacy",
+              "id": "13.650e024954ed91bf"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Footer"
+}
