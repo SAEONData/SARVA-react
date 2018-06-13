@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 
-import NavBar from './hc_navbar.jsx';
-import SideNavBar from './hc_sidenav.jsx';
+import NavBar from './navbar.jsx';
+import SideNavBar from './side_nav.jsx';
 import Footer from './footer.jsx';
 import Banner from './banner.jsx';
 import CardPage from './card.jsx';
@@ -36,8 +36,8 @@ class App extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <SideNavBar/>
-                <NavBar />
+                <SideNavBar sideNavItems={this.props.sideNavItems}/>
+                <NavBar navItems={this.props.navItems} />
                 <div className="container-fluid">
                     <div className="align-self-center ">
                         <div className="row">

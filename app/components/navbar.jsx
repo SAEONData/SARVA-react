@@ -52,19 +52,32 @@ class NavBar extends Component {
         const items = _.map(this.props.navItems, (item, index) => {
             return (
                 <NavItem key={index}>
-                    <NavLink className="nav-link black-text" onClick={item.onClick} to="#">
-                        {item.title}
-                    </NavLink>
+                    {item.ideas ?
+                        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                            <DropdownToggle className="nav-link black-text" nav caret>{item.title}</DropdownToggle>
+                            <DropdownMenu>
+                                {
+                                    _.map(item.ideas, (ditem, dindex) => {
+                                        return(<DropdownItem key={`${index}-${dindex}`} href="#">{ditem.title}</DropdownItem>)
+                                    })
+                                }
+                            </DropdownMenu>
+                        </Dropdown>
+                        :
+                        <NavLink className="nav-link black-text" onClick={item.onClick} to="#">
+                            {item.title}
+                        </NavLink>
+                    }
                 </NavItem>
             )
         })
 
         return (
             <Router>
-                <Navbar className={"navbar navbar-expand-lg navbar-dark"} >
+                <Navbar className="navbar-expand-sm nav-wrapper" >
                     <NavbarBrand href="/">
                         <img src="app/image/logo_africa_beta.png" height="80" alt="logo africa beta"/>
-                        <strong>SARVA 3.O</strong>
+                        <strong style={{color:'black'}}>SARVA 3.O</strong>
                     </NavbarBrand>
                     {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick}/>}
                     <Collapse isOpen={this.state.collapse} navbar>

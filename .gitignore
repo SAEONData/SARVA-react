@@ -48,5 +48,5 @@ jspm_packages
 # VSCode ESLint plugins
 .eslintrc.json
 
-*.idea/
+.idea/
 .DS_Store
