@@ -6,7 +6,7 @@ export function loadSideNavItems() {
 }
 
 export function loadSideNavItemsResult(sideNavItems) {
-    let navNode = _.values(sideNavItems.ideas['2'].ideas);
+    let navNode = _.values(sideNavItems.ideas['1'].ideas);
     return { type: SIDE_NAV_LOADED, sideNavItems: navNode }
 }
 

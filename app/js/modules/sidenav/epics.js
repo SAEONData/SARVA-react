@@ -7,7 +7,7 @@ import {loadSideNavItemsResult} from './actions/side_nav_actions';
 export const loadSideNavEpic = action$ =>
     action$.ofType(LOAD_SIDE_NAV)
         .mergeMap(action$ =>
-            ajax.getJSON('/app/js/utils/sarva.json')
+            ajax.getJSON('/app/js/utils/SideNav.json')
                 .map(data => loadSideNavItemsResult(data))
         );
 

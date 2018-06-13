@@ -35,6 +35,7 @@ class App extends Component {
 
     render() {
         return (
+
             <div className="container-fluid">
                 <SideNavBar sideNavItems={this.props.sideNavItems}/>
                 <NavBar navItems={this.props.navItems} />
