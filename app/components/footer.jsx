@@ -1,42 +1,43 @@
 import React from 'react';
 import { Col, Container, Row, Footer } from 'mdbreact';
+import _ from 'lodash';
 
 class FooterPage extends React.Component {
-    render(){
+    mapListItems(ideas){
+       return (_.map(ideas, (idea)=> {
+           return(
+               <li key={idea.id}>{idea.title}</li>
+           )})
+       )
+    }
+
+    getAccessoryContent(node){
+        if(node && node.attr.attachment){
+            return(<img src={'app/image/logo_dst.png'} />)
+        }
+
+        if(node && node.attr.note){
+            return (<p>{node.attr.note.text}</p>)
+        }
+    }
+
+    render() {
+        const cols = _.map(this.props.footerItems, (node, index)=>{
+            return(
+                <Col key={`col-${index}`} sm="3">
+                    <h5>{node.title}</h5>
+                      {
+                          node.ideas ? <ul>{this.mapListItems(node.ideas)}</ul> : <div>{this.getAccessoryContent(node)}</div>
+                      }
+                </Col>
+            );
+        });
+
         return(
-            <div>
             <Footer color="grey" className="font-med pt-4 mt-4 page-footer" style={{maxWidth: '100%'}}>
                 <Container className="text-left">
                     <Row>
-                        <Col sm="3">
-                            <h5 className="title" style={{fontSize:24}}>Technology</h5>
-                            <p>The DST funds the SAEON Open Data Platform (ODP) and associated dissemination portals. Developed by SAEON on behalf of DST, DEA, and other stakeholders.</p>
-                        </Col>
-                        <Col sm="3">
-                            <h5 className="title" style={{fontSize:24}}>Legal</h5>
-                            <ul>
-                                <li className="list-unstyled"><a href="#!">Disclaimer</a></li>
-                                <li className="list-unstyled"><a href="#!">Using Sarva</a></li>
-                                <li className="list-unstyled"><a href="#!">Terms and Conditions</a></li>
-                                <li className="list-unstyled"><a href="#!">Data Licences</a></li>
-                                <li className="list-unstyled"><a href="#!">Privacy</a></li>
-                            </ul>
-                        </Col>
-                        <Col sm="3">
-                                <h5 className="title" style={{fontSize:24}}>SAEON ODP</h5>
-                                <ul>
-                                    <li className="list-unstyled"><a href="#!">Open Data Platform</a></li>
-                                    <li className="list-unstyled"><a href="#!">For Stakeholders</a></li>
-                                    <li className="list-unstyled"><a href="#!">For Developers</a></li>
-                                    <li className="list-unstyled"><a href="#!">Contact Us</a></li>
-                                </ul>
-                        </Col>
-                        <Col sm="3">
-                            <div>
-                                <h5 className="title" style={{fontSize:24}}>Funding</h5>
-                                <img src={'app/image/logo_dst.png'}/>
-                            </div>
-                        </Col>
+                      {cols}
                     </Row>
                 </Container>
                 <div className="footer-copyright text-center" >
@@ -45,7 +46,6 @@ class FooterPage extends React.Component {
                     </Container>
                 </div>
             </Footer>
-                </div>
         );
     }
 }

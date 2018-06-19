@@ -14,7 +14,7 @@
       },
       "ideas": {
         "1": {
-          "title": "andiyazi",
+          "title": "Technology",
           "id": "2.650e024954ed91bf",
           "attr": {
             "position": [
@@ -29,57 +29,6 @@
           }
         },
         "2": {
-          "title": "SAEON ODP",
-          "id": "5.650e024954ed91bf",
-          "attr": {},
-          "ideas": {
-            "1": {
-              "title": "Open Data Platform",
-              "id": "14.650e024954ed91bf"
-            },
-            "2": {
-              "title": "For Stakeholders",
-              "id": "15.650e024954ed91bf"
-            },
-            "3": {
-              "title": "For Developers",
-              "id": "16.650e024954ed91bf"
-            },
-            "4": {
-              "title": "Contact us",
-              "id": "17.650e024954ed91bf"
-            }
-          }
-        },
-        "12": {
-          "title": "Funding",
-          "id": "6.650e024954ed91bf",
-          "attr": {
-            "position": [
-              122,
-              86,
-              2
-            ]
-          },
-          "ideas": {
-            "1": {
-              "title": "Logo",
-              "id": "8.650e024954ed91bf",
-              "attr": {
-                "attachment": {
-                  "contentType": "application/vnd.google.drive.attachment",
-                  "content": {
-                    "name": "logo_dst.png",
-                    "mimeType": "image/png",
-                    "url": "https://drive.google.com/a/saeon.ac.za/file/d/1Ty4VUJMoT_Ibp2kqxRqBqPf2LB3vUD1r/view?usp=drive_web",
-                    "description": ""
-                  }
-                }
-              }
-            }
-          }
-        },
-        "1.5": {
           "title": "Legal",
           "id": "4.650e024954ed91bf",
           "attr": {
@@ -88,6 +37,7 @@
             }
           },
           "ideas": {
+
             "1": {
               "title": "Disclaimer",
               "id": "9.650e024954ed91bf"
@@ -109,7 +59,51 @@
               "id": "13.650e024954ed91bf"
             }
           }
+        },
+        "1.5": {
+          "title": "Funding",
+          "id": "6.650e024954ed91bf",
+          "attr": {
+            "position": [
+              122,
+              86,
+              2
+            ],
+            "attachment": {
+              "contentType": "application/vnd.google.drive.attachment",
+              "content": {
+                "name": "logo_dst.png",
+                "mimeType": "image/png",
+                "url": "https://drive.google.com/a/saeon.ac.za/file/d/1Ty4VUJMoT_Ibp2kqxRqBqPf2LB3vUD1r/view?usp=drive_web",
+                "description": ""
+              }
+            }
+          }
+        },
+        "12": {
+          "title": "SAEON ODP",
+          "id": "5.650e024954ed91bf",
+          "attr": {},
+          "ideas": {
+            "1": {
+              "title": "Open Data Platform",
+              "id": "14.650e024954ed91bf"
+            },
+            "2": {
+              "title": "For Stakeholders",
+              "id": "15.650e024954ed91bf"
+            },
+            "3": {
+              "title": "For Developers",
+              "id": "16.650e024954ed91bf"
+            },
+            "4": {
+              "title": "Contact us",
+              "id": "17.650e024954ed91bf"
+            }
+          }
         }
+
       }
     }
   },

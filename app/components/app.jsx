@@ -47,6 +47,7 @@ class App extends Component {
                                     text="Updated, Interactive Tools are now available for detailed assessment of the impact of pressures and drivers on important human, physical, and environmental assets.
                                          These tools are currently focused on Impact Assessment, but will in time extend to allow determination of Risk and Vulnerability."
                                     hideButton={true}
+                                    url=""
                             />
                         </div>
                         <div className="row">
@@ -97,7 +98,7 @@ class App extends Component {
                                     textColor='brown'
                             />
                         </div>
-                        <Footer/>
+                        <Footer footerItems={this.props.footer}/>
                     </div>
                 </div>
             </div>
