@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Row} from 'mdbreact';
+import { Row } from 'mdbreact';
 import ModalPage from './modal.jsx';
 
 
@@ -31,9 +31,10 @@ class Banner extends React.Component {
                                 <h5 className=" text-xlg-center white-text" style={{fontSize:30, color: this.props.textColor}}>{this.props.text}</h5>
                                 <p>{ this.props.hideButton ? '' : <a href="#" className="btn grey text-center" onClick={this.toggleModal}>Read More</a>}</p>
                                 <ModalPage isOpen={this.state.showModal}
+                                           onRequestClose={this.toggleModal}
                                            url={this.props.url}
                                            toggle={this.toggleModal}
-                                           modalHeader={this.props.modalHeader}
+                                           contentLabel={this.props.modalHeader}
                                 />
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {connect} from "react-redux";
+import {connect} from 'react-redux';
 
 import NavBar from './navbar.jsx';
 import SideNavBar from './side_nav.jsx';
@@ -83,7 +83,7 @@ class App extends Component {
                                      can be accommodated without deterioration in service - thanks to an innovative distributed data processing breakthrough."
                                     url="app/pages/page_data.html"
                                     modalHeader="Working with large distributed data sets in the web"
-                                    color={"brown"}
+
 
                             />
                         </div>
@@ -95,7 +95,7 @@ class App extends Component {
                                     In addition, we allow officials to contribute their own impact assessments."
                                     url="app/pages/page_crowd.html"
                                     modalHeader="Building up a record of events and disasters"
-                                    textColor='brown'
+
                             />
                         </div>
                         <Footer footerItems={this.props.footer}/>

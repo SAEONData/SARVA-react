@@ -50,3 +50,16 @@ footer.page-footer {
 .side-nav {
   width: 350px;
 }
+
+.modal-content-ext {
+
+}
+
+.modal-body-ext {
+
+}
+
+.modal-footer-ext{
+  position: absolute;
+  bottom: 10px;
+}

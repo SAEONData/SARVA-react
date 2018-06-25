@@ -24,6 +24,7 @@
             },
             "2": {
               "title": "Profiler",
+              "url": "http://app01.saeon.ac.za/profiler/main.aspx",
               "id": "11.336f00de990dfb23",
               "attr": {
                 "position": [
@@ -89,6 +90,7 @@
           "ideas": {
             "1": {
               "title": "NCCRD",
+              "url": "http://app01.saeon.ac.za/nccrdsite/projects.html",
               "id": "14.336f00de990dfb23"
             },
             "2": {

@@ -16,6 +16,8 @@ import {
 import {BrowserRouter as Router} from 'react-router-dom';
 import _ from 'lodash';
 
+import ModalPage from './modal.jsx';
+
 class NavBar extends Component {
     constructor(props) {
         super(props);
@@ -23,6 +25,7 @@ class NavBar extends Component {
             collapse: false,
             isWideEnough: false,
             dropdownOpen: false,
+            modal: false
 
         };
         this.onClick = this.onClick.bind(this);
@@ -33,6 +36,7 @@ class NavBar extends Component {
     toggleModal() {
         this.setState({
             modal: !this.state.modal,
+            url: undefined
         });
     }
 
@@ -48,6 +52,13 @@ class NavBar extends Component {
         });
     }
 
+    launchIframeModal(url){
+        this.setState({
+            url: url,
+            modal: true
+        })
+    }
+
     render() {
         const items = _.map(this.props.navItems, (item, index) => {
             return (
@@ -58,19 +69,27 @@ class NavBar extends Component {
                             <DropdownMenu>
                                 {
                                     _.map(item.ideas, (ditem, dindex) => {
-                                        return(<DropdownItem className="nav-link black-text" key={`${index}-${dindex}`} href="#">{ditem.title}</DropdownItem>)
+                                        return(
+                                            <DropdownItem
+                                                className="nav-link black-text"
+                                                key={`${index}-${dindex}`}
+                                                href="#"
+                                                onClick={() => { this.launchIframeModal(ditem.url)}}
+                                            >
+                                                {ditem.title}
+                                            </DropdownItem>)
                                     })
                                 }
                             </DropdownMenu>
                         </Dropdown>
                         :
-                        <NavLink className="nav-link black-text" onClick={item.onClick} to="#">
+                        <NavLink className="nav-link black-text" onClick={() => { this.launchIframeModal(item.url)}} to="#">
                             {item.title}
                         </NavLink>
                     }
                 </NavItem>
             )
-        })
+        });
 
         return (
             <Router>
@@ -85,6 +104,10 @@ class NavBar extends Component {
                             {items}
                         </NavbarNav>
                     </Collapse>
+                    <ModalPage isOpen={this.state.modal}
+                               contentLabel="Text"
+                               url={this.state.url}
+                               onRequestClose={this.toggleModal}/>
                 </Navbar>
             </Router>
         );

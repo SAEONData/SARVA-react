@@ -1,21 +1,12 @@
-import React, {Component} from 'react';
-import { Button, Modal, ModalBody, ModalHeader, ModalFooter, NavLink } from 'mdbreact';
+import React, { Component } from 'react';
+import { Button } from 'mdbreact';
+import PropTypes from 'prop-types';
+import Modal from 'react-modal';
 import Iframe from 'react-iframe';
 
 class ModalPage extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            modal: false
-        };
-
-        this.toggle = this.toggle.bind(this);
-    }
-
-    toggle() {
-        this.setState({
-            modal: !this.state.modal
-        });
     }
 
     render() {
@@ -28,19 +19,30 @@ class ModalPage extends Component {
                     />
         );
         return (
-            <div className="container-fluid">
-                <Modal isOpen={this.props.isOpen} fullHeight toggle={this.toggle} size="lg" style={{startingTop:'-2%', endingTop:'-3%'}}>
-                    <ModalHeader toggle={this.props.toggle}>{this.props.modalHeader}</ModalHeader>
-                    <ModalBody>
-                      {frame}
-                    </ModalBody>
-                    <ModalFooter>
-                        <Button color="secondary" onClick={this.props.toggle}>Close</Button>{' '}
-                    </ModalFooter>
-                </Modal>
-            </div>
+            <Modal
+                isOpen={this.props.isOpen}
+                onRequestClose={this.props.onRequestClose}
+                contentLabel={this.props.contentLabel}
+            >
+                <div className="modal-content-ext">
+                    <div className="modal-header-ext">
+                        {this.props.contentLabel}
+                    </div>
+                    <div className="modal-body-ext">
+                        {frame}
+                    </div>
+                    <div className="modal-footer-ext">
+                        <Button color="secondary" onClick={this.props.onRequestClose}>Close</Button>{' '}
+                    </div>
+                </div>
+            </Modal>
         );
     }
 }
-
+ModalPage.propTypes = {
+    isOpen: PropTypes.bool.isRequired,
+    onRequestClose: PropTypes.func,
+    contentLabel: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+};
 export default ModalPage;
