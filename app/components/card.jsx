@@ -30,9 +30,10 @@ class CardPage extends Component {
                     <CardText>{this.props.text}</CardText>
                 </CardBody>
                 <ModalPage isOpen={this.state.showModal}
+                           onRequestClose={this.toggleModal}
                            url={this.props.url}
                            toggle={this.toggleModal}
-                           modalHeader={this.props.modalHeader}
+                           contentLabel={this.props.modalHeader}
                 />
             </Card>
             </div>

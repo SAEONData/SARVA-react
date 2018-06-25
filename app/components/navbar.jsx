@@ -25,7 +25,8 @@ class NavBar extends Component {
             collapse: false,
             isWideEnough: false,
             dropdownOpen: false,
-            modal: false
+            modal: false,
+            url: null
 
         };
         this.onClick = this.onClick.bind(this);
@@ -36,7 +37,7 @@ class NavBar extends Component {
     toggleModal() {
         this.setState({
             modal: !this.state.modal,
-            url: undefined
+            url: null
         });
     }
 

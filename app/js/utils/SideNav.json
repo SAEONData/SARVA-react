@@ -112,22 +112,27 @@
           "ideas": {
             "1": {
               "title": "SAWS Climate Atlas",
+              "url":"http://app01.saeon.ac.za/PLATFORM_4/FRAME/accordian.html?URL=../../PLATFORM_4/SARVA/ATLAS/atlas_sarva_saws.js&THEME=GREY",
               "id": "21.336f00de990dfb23"
             },
             "2": {
               "title": "Atlas of  Agrohydrology",
+              "url":"http://app01.saeon.ac.za/PLATFORM_4/FRAME/accordian.html?URL=../../PLATFORM_4/SARVA/ATLAS/atlas_sarva_beeh.js&THEME=GREY",
               "id": "22.336f00de990dfb23"
             },
             "3": {
               "title": "SARVA 2.O",
+              "url": "http://app01.saeon.ac.za/PLATFORM_4/FRAME/accordian.html?URL=../../PLATFORM_4/SARVA/ATLAS/hardcopy_atlas.js&THEME=GREY",
               "id": "23.336f00de990dfb23"
             },
             "4": {
               "title": "SARVA 1.0",
+              "url":"http://app01.saeon.ac.za/PLATFORM_4/FRAME/accordian.html?URL=../../PLATFORM_4/SARVA/ATLAS/atlas_sarva_beeh.js&THEME=GREY",
               "id": "24.336f00de990dfb23"
             },
             "5": {
               "title": "Reading Risk",
+              "url":"http://app01.saeon.ac.za/PLATFORM_4/FRAME/accordian.html?URL=../../PLATFORM_4/SARVA/ATLAS/atlas_sarva_docs.js&THEME=GREY",
               "id": "25.336f00de990dfb23"
             }
           }

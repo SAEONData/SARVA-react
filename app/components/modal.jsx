@@ -32,7 +32,7 @@ class ModalPage extends Component {
                         {frame}
                     </div>
                     <div className="modal-footer-ext">
-                        <Button color="secondary" onClick={this.props.onRequestClose}>Close</Button>{' '}
+                        <Button color="grey" onClick={this.props.onRequestClose}>Close</Button>{' '}
                     </div>
                 </div>
             </Modal>
