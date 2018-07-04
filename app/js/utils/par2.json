@@ -86,16 +86,6 @@
             "note": {
               "index": 7,
               "text": "Distributed, high-resolution data can be annotated and linked from any standardised service in the web and included into our profiling and impact assessment tools.Very large datasets can be accommodated without deterioration in service - thanks to an innovative distributed data processing breakthrough."
-            },
-            "attachment": {
-              "contentType": "application/vnd.google.drive.attachment",
-              "content": {
-                "name": "logo_esa.png",
-                "mimeType": "image/png",
-                "url": "../app/image/background_image_1.png",
-                "description": "",
-                "embedUrl": "https://drive.google.com/a/saeon.ac.za/file/d/1tVk5wXRkSoK5YEDKQn6BG902M3Bq3aE6/preview?usp=drive_web"
-              }
             }
           }
         },
@@ -111,16 +101,6 @@
             "note": {
               "index": 8,
               "text": "Links and services to crowd-sourced data are now included - social media feeds, news items, and contributions from the general public. In addition, we allow officials to contribute their own impact assessments."
-            },
-            "attachment": {
-              "contentType": "application/vnd.google.drive.attachment",
-              "content": {
-                "name": "logo_esa.png",
-                "mimeType": "image/png",
-                "url": "../app/image/background_image_4.png",
-                "description": "",
-                "embedUrl": "https://drive.google.com/a/saeon.ac.za/file/d/1tVk5wXRkSoK5YEDKQn6BG902M3Bq3aE6/preview?usp=drive_web"
-              }
             }
           }
         }
