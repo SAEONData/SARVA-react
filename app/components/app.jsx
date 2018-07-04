@@ -10,10 +10,12 @@ import CardPage from './card.jsx';
 import {LOAD_NAV} from '../js/modules/nav/constants';
 import {LOAD_SIDE_NAV} from '../js/modules/sidenav/constants';
 import {LOAD_FOOTER} from '../js/modules/footer/constants';
+import {LOAD_BANNER} from '../js/modules/parallax/constants';
 
 import * as nav from '../js/modules/nav/reducer';
 import * as side from '../js/modules/sidenav/reducer';
 import * as footer from '../js/modules/footer/reducer';
+import * as banner from '../js/modules/parallax/reducer';
 
 
 /**
@@ -30,7 +32,8 @@ class App extends Component {
         };
         this.props.dispatch({type: LOAD_NAV});
         this.props.dispatch({type: LOAD_SIDE_NAV});
-        this.props.dispatch({type: LOAD_FOOTER})
+        this.props.dispatch({type: LOAD_FOOTER});
+        this.props.dispatch({type: LOAD_BANNER});
     }
 
     render() {
@@ -109,7 +112,8 @@ class App extends Component {
 const mapStateToProps = state => ({
     navItems: nav.getNavItems(state),
     sideNavItems: side.getSideNavItems(state),
-    footer: footer.getFooter(state)
+    footer: footer.getFooter(state),
+    //bannerItems: banner.getBannerItems(state),
 });
 
 export default connect(

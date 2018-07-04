@@ -1,0 +1,101 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Parallex",
+      "id": 1,
+      "attr": {
+        "position": [
+          -30,
+          -15,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Updated, Interactive Tools",
+          "id": "2.62597a04b5500a34",
+          "attr": {
+            "note": {
+              "index": 2,
+              "text": "Updated, Interactive Tools are now available for detailed assessment of the impact of pressures and drivers on important human, physical, and environmental assets. These tools are currently focused on Impact Assessment, but will in time extend to allow determination of Risk and Vulnerability."
+            },
+            "position": [
+              80,
+              -85,
+              2
+            ]
+          }
+        },
+        "11": {
+          "title": "Cards",
+          "id": "3.62597a04b5500a34",
+          "ideas": {
+            "1": {
+              "title": "Search",
+              "id": "5.62597a04b5500a34",
+              "attr": {
+                "note": {
+                  "index": 4,
+                  "text": "Search and Discover Resources\nUse simple or advanced tools to search for data meeting your criteria."
+                }
+              }
+            },
+            "2": {
+              "title": "Themes",
+              "id": "6.62597a04b5500a34",
+              "attr": {
+                "note": {
+                  "index": 5,
+                  "text": "Explore Available Resources by Sector or Theme\nExplore Available Resources by Sector or Theme"
+                }
+              }
+            },
+            "3": {
+              "title": "Contribute",
+              "id": "7.62597a04b5500a34",
+              "attr": {
+                "note": {
+                  "index": 6,
+                  "text": "Tell Us About Your Area of Interest\nRegister as a user and contribute data, assessments, and media."
+                }
+              }
+            }
+          }
+        },
+        "21": {
+          "title": "Distributed, High Resolution Data",
+          "id": "4.62597a04b5500a34",
+          "attr": {
+            "position": [
+              97,
+              83,
+              3
+            ],
+            "note": {
+              "index": 7,
+              "text": "Distributed, high-resolution data can be annotated and linked from any standardised service in the web and included into our profiling and impact assessment tools.Very large datasets can be accommodated without deterioration in service - thanks to an innovative distributed data processing breakthrough."
+            }
+          }
+        },
+        "31": {
+          "title": "Crowd-Sourced Contributions",
+          "id": "8.324ee27aa4f429c4",
+          "attr": {
+            "position": [
+              106,
+              167,
+              4
+            ],
+            "note": {
+              "index": 8,
+              "text": "Links and services to crowd-sourced data are now included - social media feeds, news items, and contributions from the general public. In addition, we allow officials to contribute their own impact assessments."
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Parallex"
+}

@@ -20,6 +20,7 @@
           "ideas": {
             "1": {
               "title": "Using Sarva",
+              "url":"app/pages/page_using.html",
               "id": "10.336f00de990dfb23"
             },
             "2": {
@@ -36,6 +37,7 @@
             },
             "3": {
               "title": "Atlas",
+              "url":"app/pages/page_atlas.html",
               "id": "12.336f00de990dfb23",
               "attr": {
                 "position": [
@@ -47,6 +49,7 @@
             },
             "4": {
               "title": "Finding Data",
+              "url":"app/pages/page_data.html",
               "id": "13.336f00de990dfb23",
               "attr": {
                 "position": [
@@ -71,10 +74,12 @@
           "ideas": {
             "1": {
               "title": "Semantic Framework",
+              "url":"app/pages/page_semantic.html",
               "id": "17.336f00de990dfb23"
             },
             "2": {
               "title": "Data and Evidence",
+              "url":"app/pages/page_evidence.html",
               "id": "19.336f00de990dfb23"
             },
             "3": {

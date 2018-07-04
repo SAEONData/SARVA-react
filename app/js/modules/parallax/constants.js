@@ -1,0 +1,3 @@
+export const LOAD_BANNER = 'LOAD_BANNER';
+export const LOADING_BANNER = 'LOADING_BANNER';
+export const BANNER_LOADED = 'BANNER_LOADED';
